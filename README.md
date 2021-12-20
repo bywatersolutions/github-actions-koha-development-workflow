@@ -2,8 +2,9 @@
 GitHub Actions workflow to check if Koha branch needs to be rebased
 
 ## Add workflow to your branch
+Copy and paste this command to your terminal. Run from the root of the kohaclone.
 ```bash
-curl --create-dirs -O --output-dir .github/workflows https://raw.githubusercontent.com/bywatersolutions/github-actions-koha-development-workflow/main/devel.yml && git add .github/workflows && git commit -m 'GitHub Actions - Add workflow for Koha development"
+curl --create-dirs -O --output-dir .github/workflows https://raw.githubusercontent.com/bywatersolutions/github-actions-koha-development-workflow/main/devel.yml && git add .github/workflows && git commit -m 'GitHub Actions - Add workflow for Koha development'
 ```
 
 ## NOTE
